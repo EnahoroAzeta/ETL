@@ -23,5 +23,5 @@ Denormalized tables.
 Simplified queries.
 Fast aggregation.
 
-Star Schema<img width="683" alt="Star Schema" src="https://user-images.githubusercontent.com/85859888/121840558-6dab2d80-ccd4-11eb-9b01-5ad9a916eb46.png">
+<img width="683" alt="Star Schema" src="https://user-images.githubusercontent.com/85859888/121840558-6dab2d80-ccd4-11eb-9b01-5ad9a916eb46.png">
 
