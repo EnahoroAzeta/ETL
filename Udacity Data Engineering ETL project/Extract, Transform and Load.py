@@ -108,8 +108,7 @@ df
 
 # In[461]:
 
-
-timestamp_df = time_df[['timestamp']]
+timestamp_df = time_df
 
 random_data = np.random.randint(1, 10000000000, size=6820)
 random_data
@@ -118,10 +117,10 @@ timestamp_insert = timestamp_df
 
 timestamp_insert['time_id'] = random_data
 
-timestamp_insert['date'] = [d.date() for d in timestamp_insert['timestamp']]
-timestamp_insert['time'] = [d.time() for d in timestamp_insert['timestamp']]
+# timestamp_insert['date'] = [d.date() for d in timestamp_insert['timestamp']]
+# timestamp_insert['time'] = [d.time() for d in timestamp_insert['timestamp']]
 
-timestamp_insert_df = timestamp_insert[['time_id', 'timestamp', 'date', 'time']]
+timestamp_insert_df = timestamp_insert[['time_id', 'timestamp', 'year', 'month', 'day', 'hour']]
 
 
 timestamp_insert_df

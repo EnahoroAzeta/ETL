@@ -77,7 +77,7 @@ cursor.execute(artist_table_create)
 
 
 time_table_create = ("""
-CREATE TABLE IF NOT EXISTS time (time_id bigint UNIQUE PRIMARY KEY, timestamp timestamp, date date, time time
+CREATE TABLE IF NOT EXISTS time (time_id bigint UNIQUE PRIMARY KEY, timestamp timestamp, year int, month int, day int, hour int
    );
 """)
 
