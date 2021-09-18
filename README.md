@@ -2,7 +2,7 @@
 
 # Introduction
 
-The goal of this project was to build an ETL pipleine for a PostgreSQL database utilizing the data on users activity and songs metadata. The database helps us do complex analytics regarding users activity as well as song play analysis.
+This project was part of the Udacity data engineering course and the goal was to build an ETL pipleine for a PostgreSQL database utilizing the data on users activity and songs metadata. The database helps us do complex analytics regarding users activity as well as song play analysis.
 
 # Data
 The songs' metadata source is a subset of the Million Song Dataset. Also, the users' activities is a simulated data using eventsim. The data resides in two main directories:
